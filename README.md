@@ -1,6 +1,6 @@
 # Docker4Drupal
 
-##1. Actualizamos los paquetes instalados y los repositorios:
+## 1. Actualizamos los paquetes instalados y los repositorios:
 
 <code>sudo apt-get update</code>
   

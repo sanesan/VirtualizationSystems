@@ -20,6 +20,6 @@ Y verificamos que tenemos la clave:
 
 <code>sudo apt-key fingerprint 0EBFCD88</code>
 
-![keyofdocker!](https://github.com/sanesan/docker4drupal/blob/master/img/3.PNG)
+![keyofdocker!](https://github.com/sanesan/docker4drupal/blob/master/img/3-1.PNG)
 
 ## 4.

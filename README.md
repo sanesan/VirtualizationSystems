@@ -16,7 +16,7 @@
 
 <code>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</code>
 
-Verificamos que tenemos la clave:
+Y verificamos que tenemos la clave:
 
 <code>sudo apt-key fingerprint 0EBFCD88</code>
 

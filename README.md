@@ -12,7 +12,6 @@
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
 </code>
 
-
-![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/docker4drupal/blob/master/img/2.PNG)
+![next-step!](https://github.com/sanesan/docker4drupal/blob/master/img/2.PNG)
 
 ## 3. #...#:

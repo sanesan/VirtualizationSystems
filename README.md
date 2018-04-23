@@ -6,7 +6,7 @@
   
 ![sudo apt-get update!](https://github.com/sanesan/docker4drupal/blob/master/img/1.PNG)
 
-2. Instalamos los paquetes necesarios:
+## 2. Instalamos los paquetes necesarios:
 
 <code>
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
@@ -14,4 +14,4 @@ sudo apt-get install apt-transport-https ca-certificates curl software-propertie
 
 ![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/docker4drupal/blob/master/img/2.PNG)
 
-3. Instalamos los paquetes necesarios:
+## 3. #...#:

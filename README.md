@@ -22,11 +22,11 @@ Y verificamos que tenemos la clave:
 
 ![keyofdocker!](https://github.com/sanesan/docker4drupal/blob/master/img/3-1.PNG)
 
-## 4.
+## 4. Añadimos el repositorio de Docker:
 
 Ejecutamos <code>lsb_release -cs</code> para ver nuestra distribución, en este ejemplo tenemos <code>xenial</code>.
 
-sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
+<code>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</code>
 
 ![xenial!](https://github.com/sanesan/docker4drupal/blob/master/img/4.PNG)
 

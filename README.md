@@ -30,3 +30,24 @@ Ejecutamos <code>lsb_release -cs</code> para ver nuestra distribución, en este 
 
 ![xenial!](https://github.com/sanesan/docker4drupal/blob/master/img/4-1.PNG)
 
+Y actulizamos los repositorios:
+
+<code>sudo apt-get update</code>
+
+## 5. Instalamos Docker:
+
+<code>apt-get install docker-ce</code>
+
+![docker-ce!](https://github.com/sanesan/docker4drupal/blob/master/img/5-1.PNG)
+
+Comprobamos que Docker está instalado correctamente
+<code>sudo docker run hello-world</code>
+
+![hello-world!](https://github.com/sanesan/docker4drupal/blob/master/img/5-2.PNG)
+
+
+
+
+
+
+

@@ -28,5 +28,5 @@ Ejecutamos <code>lsb_release -cs</code> para ver nuestra distribución, en este 
 
 <code>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</code>
 
-![xenial!](https://github.com/sanesan/docker4drupal/blob/master/img/4.PNG)
+![xenial!](https://github.com/sanesan/docker4drupal/blob/master/img/4-1.PNG)
 

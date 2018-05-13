@@ -1,46 +1,46 @@
-# Instalación de Docker.
+# Docker Installation.
 
-## 1. Actualizamos los paquetes instalados y los repositorios:
+## 1. Update the installed packages and the repositories:
 
 <code>sudo apt-get update</code>
  
 ![sudo apt-get update!](https://github.com/sanesan/docker4linux/blob/master/img/1.PNG)
 
-## 2. Instalamos los paquetes necesarios:
+## 2. Install the necessary packages:
 
 <code>sudo apt-get install apt-transport-https ca-certificates curl software-properties-common</code>
 
 ![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/docker4linux/blob/master/img/2.PNG)
 
-## 3. Agregamos la clave GPG oficial de Docker:
+## 3. Add Docker's official GPG key:
 
 <code>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -</code>
 
-Y verificamos que tenemos la clave:
+And verify that we have the key:
 
 <code>sudo apt-key fingerprint 0EBFCD88</code>
 
 ![keyofdocker!](https://github.com/sanesan/docker4linux/blob/master/img/3-1.PNG)
 
-## 4. Añadimos el repositorio de Docker:
+## 4. Add the Docker repository:
 
-Ejecutamos <code>lsb_release -cs</code> para ver nuestra distribución, en este ejemplo tenemos <code>xenial</code>.
+Execute <code>lsb_release -cs</code> to see our distribution, in this example we have <code>xenial</code>.
 
 <code>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</code>
 
 ![xenial!](https://github.com/sanesan/docker4linux/blob/master/img/4-1.PNG)
 
-Y actulizamos los repositorios:
+Update the repositories again:
 
 <code>sudo apt-get update</code>
 
-## 5. Instalamos Docker:
+## 5. Install Docker:
 
 <code>apt-get install docker-ce</code>
 
 ![docker-ce!](https://github.com/sanesan/docker4linux/blob/master/img/5-1.PNG)
 
-Comprobamos que Docker está instalado correctamente
+Check that Docker is installed correctly
 <code>sudo docker run hello-world</code>
 
 ![hello-world!](https://github.com/sanesan/docker4linux/blob/master/img/5-2.PNG)

@@ -4,13 +4,13 @@
 
 <code>sudo apt-get update</code>
  
-![sudo apt-get update!](https://github.com/sanesan/docker4drupal/blob/master/img/1.PNG)
+![sudo apt-get update!](https://github.com/sanesan/docker4linux/blob/master/img/1.PNG)
 
 ## 2. Instalamos los paquetes necesarios:
 
 <code>sudo apt-get install apt-transport-https ca-certificates curl software-properties-common</code>
 
-![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/docker4drupal/blob/master/img/2.PNG)
+![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/docker4linux/blob/master/img/2.PNG)
 
 ## 3. Agregamos la clave GPG oficial de Docker:
 
@@ -20,7 +20,7 @@ Y verificamos que tenemos la clave:
 
 <code>sudo apt-key fingerprint 0EBFCD88</code>
 
-![keyofdocker!](https://github.com/sanesan/docker4drupal/blob/master/img/3-1.PNG)
+![keyofdocker!](https://github.com/sanesan/docker4linux/blob/master/img/3-1.PNG)
 
 ## 4. Añadimos el repositorio de Docker:
 
@@ -28,7 +28,7 @@ Ejecutamos <code>lsb_release -cs</code> para ver nuestra distribución, en este 
 
 <code>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</code>
 
-![xenial!](https://github.com/sanesan/docker4drupal/blob/master/img/4-1.PNG)
+![xenial!](https://github.com/sanesan/docker4linux/blob/master/img/4-1.PNG)
 
 Y actulizamos los repositorios:
 
@@ -38,16 +38,12 @@ Y actulizamos los repositorios:
 
 <code>apt-get install docker-ce</code>
 
-![docker-ce!](https://github.com/sanesan/docker4drupal/blob/master/img/5-1.PNG)
+![docker-ce!](https://github.com/sanesan/docker4linux/blob/master/img/5-1.PNG)
 
 Comprobamos que Docker está instalado correctamente
 <code>sudo docker run hello-world</code>
 
-![hello-world!](https://github.com/sanesan/docker4drupal/blob/master/img/5-2.PNG)
-
-# Utilizar Drupal en un contenedor Docker.
-
-## 1. #...#:
+![hello-world!](https://github.com/sanesan/docker4linux/blob/master/img/5-2.PNG)
 
 
 

@@ -4,13 +4,13 @@
 
 <code>sudo apt-get update</code>
  
-![sudo apt-get update!](https://github.com/sanesan/docker4linux/blob/master/img/1.PNG)
+![sudo apt-get update!](https://github.com/sanesan/VirtualizationSystems/blob/master/img/1.PNG)
 
 ## 2. Install the necessary packages:
 
 <code>sudo apt-get install apt-transport-https ca-certificates curl software-properties-common</code>
 
-![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/docker4linux/blob/master/img/2.PNG)
+![sudo apt-get install apt-transport-https ca-certificates curl software-properties-common!](https://github.com/sanesan/VirtualizationSystems/blob/master/img/2.PNG)
 
 ## 3. Add Docker's official GPG key:
 
@@ -20,7 +20,7 @@ And verify that we have the key:
 
 <code>sudo apt-key fingerprint 0EBFCD88</code>
 
-![keyofdocker!](https://github.com/sanesan/docker4linux/blob/master/img/3-1.PNG)
+![keyofdocker!](https://github.com/sanesan/VirtualizationSystems/blob/master/img/3-1.PNG)
 
 ## 4. Add the Docker repository:
 
@@ -28,7 +28,7 @@ Execute <code>lsb_release -cs</code> to see our distribution, in this example we
 
 <code>sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"</code>
 
-![xenial!](https://github.com/sanesan/docker4linux/blob/master/img/4-1.PNG)
+![xenial!](https://github.com/sanesan/VirtualizationSystems/blob/master/img/4-1.PNG)
 
 Update the repositories again:
 
@@ -38,9 +38,9 @@ Update the repositories again:
 
 <code>apt-get install docker-ce</code>
 
-![docker-ce!](https://github.com/sanesan/docker4linux/blob/master/img/5-1.PNG)
+![docker-ce!](https://github.com/sanesan/VirtualizationSystems/blob/master/img/5-1.PNG)
 
 Check that Docker is installed correctly
 <code>sudo docker run hello-world</code>
 
-![hello-world!](https://github.com/sanesan/docker4linux/blob/master/img/5-2.PNG)
+![hello-world!](https://github.com/sanesan/VirtualizationSystems/blob/master/img/5-2.PNG)
